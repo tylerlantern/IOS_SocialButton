@@ -14,6 +14,7 @@
 		BE20DF531E8ABFF70089385B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE20DF511E8ABFF70089385B /* LaunchScreen.storyboard */; };
 		BE20DF5E1E8ABFF70089385B /* SocialButtonControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20DF5D1E8ABFF70089385B /* SocialButtonControlTests.swift */; };
 		BE20DF691E8ABFF70089385B /* SocialButtonControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20DF681E8ABFF70089385B /* SocialButtonControlUITests.swift */; };
+		BE20DF781E8AC0510089385B /* SocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20DF771E8AC0510089385B /* SocialButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BE20DF641E8ABFF70089385B /* SocialButtonControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialButtonControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE20DF681E8ABFF70089385B /* SocialButtonControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButtonControlUITests.swift; sourceTree = "<group>"; };
 		BE20DF6A1E8ABFF70089385B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE20DF771E8AC0510089385B /* SocialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BE20DF471E8ABFF70089385B /* SocialButtonControl */ = {
 			isa = PBXGroup;
 			children = (
+				BE20DF761E8AC01A0089385B /* Controls */,
 				BE20DF481E8ABFF70089385B /* AppDelegate.swift */,
 				BE20DF4A1E8ABFF70089385B /* ViewController.swift */,
 				BE20DF4C1E8ABFF70089385B /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				BE20DF6A1E8ABFF70089385B /* Info.plist */,
 			);
 			path = SocialButtonControlUITests;
+			sourceTree = "<group>";
+		};
+		BE20DF761E8AC01A0089385B /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				BE20DF771E8AC0510089385B /* SocialButton.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 			files = (
 				BE20DF4B1E8ABFF70089385B /* ViewController.swift in Sources */,
 				BE20DF491E8ABFF70089385B /* AppDelegate.swift in Sources */,
+				BE20DF781E8AC0510089385B /* SocialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
