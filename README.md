@@ -1,1 +1,1 @@
-<h1>Social Button Control</h1>
+<h3>Social Button Control</h3>
