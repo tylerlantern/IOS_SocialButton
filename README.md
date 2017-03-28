@@ -1,2 +1,1 @@
-<h3>Social Button Control</h3>
-<hr>
+<h1>Social Button Control</h1>
