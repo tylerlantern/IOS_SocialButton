@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE20DF491E8ABFF70089385B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20DF481E8ABFF70089385B /* AppDelegate.swift */; };
+		BE20DF4B1E8ABFF70089385B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20DF4A1E8ABFF70089385B /* ViewController.swift */; };
+		BE20DF4E1E8ABFF70089385B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE20DF4C1E8ABFF70089385B /* Main.storyboard */; };
+		BE20DF501E8ABFF70089385B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE20DF4F1E8ABFF70089385B /* Assets.xcassets */; };
+		BE20DF531E8ABFF70089385B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE20DF511E8ABFF70089385B /* LaunchScreen.storyboard */; };
+		BE20DF5E1E8ABFF70089385B /* SocialButtonControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20DF5D1E8ABFF70089385B /* SocialButtonControlTests.swift */; };
+		BE20DF691E8ABFF70089385B /* SocialButtonControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20DF681E8ABFF70089385B /* SocialButtonControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE20DF5A1E8ABFF70089385B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE20DF3D1E8ABFF70089385B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE20DF441E8ABFF70089385B;
+			remoteInfo = SocialButtonControl;
+		};
+		BE20DF651E8ABFF70089385B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE20DF3D1E8ABFF70089385B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE20DF441E8ABFF70089385B;
+			remoteInfo = SocialButtonControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE20DF451E8ABFF70089385B /* SocialButtonControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialButtonControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE20DF481E8ABFF70089385B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE20DF4A1E8ABFF70089385B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE20DF4D1E8ABFF70089385B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE20DF4F1E8ABFF70089385B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE20DF521E8ABFF70089385B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE20DF541E8ABFF70089385B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE20DF591E8ABFF70089385B /* SocialButtonControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialButtonControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE20DF5D1E8ABFF70089385B /* SocialButtonControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButtonControlTests.swift; sourceTree = "<group>"; };
+		BE20DF5F1E8ABFF70089385B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE20DF641E8ABFF70089385B /* SocialButtonControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialButtonControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE20DF681E8ABFF70089385B /* SocialButtonControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButtonControlUITests.swift; sourceTree = "<group>"; };
+		BE20DF6A1E8ABFF70089385B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE20DF421E8ABFF70089385B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE20DF561E8ABFF70089385B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE20DF611E8ABFF70089385B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE20DF3C1E8ABFF70089385B = {
+			isa = PBXGroup;
+			children = (
+				BE20DF471E8ABFF70089385B /* SocialButtonControl */,
+				BE20DF5C1E8ABFF70089385B /* SocialButtonControlTests */,
+				BE20DF671E8ABFF70089385B /* SocialButtonControlUITests */,
+				BE20DF461E8ABFF70089385B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE20DF461E8ABFF70089385B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE20DF451E8ABFF70089385B /* SocialButtonControl.app */,
+				BE20DF591E8ABFF70089385B /* SocialButtonControlTests.xctest */,
+				BE20DF641E8ABFF70089385B /* SocialButtonControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE20DF471E8ABFF70089385B /* SocialButtonControl */ = {
+			isa = PBXGroup;
+			children = (
+				BE20DF481E8ABFF70089385B /* AppDelegate.swift */,
+				BE20DF4A1E8ABFF70089385B /* ViewController.swift */,
+				BE20DF4C1E8ABFF70089385B /* Main.storyboard */,
+				BE20DF4F1E8ABFF70089385B /* Assets.xcassets */,
+				BE20DF511E8ABFF70089385B /* LaunchScreen.storyboard */,
+				BE20DF541E8ABFF70089385B /* Info.plist */,
+			);
+			path = SocialButtonControl;
+			sourceTree = "<group>";
+		};
+		BE20DF5C1E8ABFF70089385B /* SocialButtonControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE20DF5D1E8ABFF70089385B /* SocialButtonControlTests.swift */,
+				BE20DF5F1E8ABFF70089385B /* Info.plist */,
+			);
+			path = SocialButtonControlTests;
+			sourceTree = "<group>";
+		};
+		BE20DF671E8ABFF70089385B /* SocialButtonControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE20DF681E8ABFF70089385B /* SocialButtonControlUITests.swift */,
+				BE20DF6A1E8ABFF70089385B /* Info.plist */,
+			);
+			path = SocialButtonControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE20DF441E8ABFF70089385B /* SocialButtonControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE20DF6D1E8ABFF70089385B /* Build configuration list for PBXNativeTarget "SocialButtonControl" */;
+			buildPhases = (
+				BE20DF411E8ABFF70089385B /* Sources */,
+				BE20DF421E8ABFF70089385B /* Frameworks */,
+				BE20DF431E8ABFF70089385B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialButtonControl;
+			productName = SocialButtonControl;
+			productReference = BE20DF451E8ABFF70089385B /* SocialButtonControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE20DF581E8ABFF70089385B /* SocialButtonControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE20DF701E8ABFF70089385B /* Build configuration list for PBXNativeTarget "SocialButtonControlTests" */;
+			buildPhases = (
+				BE20DF551E8ABFF70089385B /* Sources */,
+				BE20DF561E8ABFF70089385B /* Frameworks */,
+				BE20DF571E8ABFF70089385B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE20DF5B1E8ABFF70089385B /* PBXTargetDependency */,
+			);
+			name = SocialButtonControlTests;
+			productName = SocialButtonControlTests;
+			productReference = BE20DF591E8ABFF70089385B /* SocialButtonControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE20DF631E8ABFF70089385B /* SocialButtonControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE20DF731E8ABFF70089385B /* Build configuration list for PBXNativeTarget "SocialButtonControlUITests" */;
+			buildPhases = (
+				BE20DF601E8ABFF70089385B /* Sources */,
+				BE20DF611E8ABFF70089385B /* Frameworks */,
+				BE20DF621E8ABFF70089385B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE20DF661E8ABFF70089385B /* PBXTargetDependency */,
+			);
+			name = SocialButtonControlUITests;
+			productName = SocialButtonControlUITests;
+			productReference = BE20DF641E8ABFF70089385B /* SocialButtonControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE20DF3D1E8ABFF70089385B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nattapong Unaregul";
+				TargetAttributes = {
+					BE20DF441E8ABFF70089385B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MCP73L8734;
+						ProvisioningStyle = Automatic;
+					};
+					BE20DF581E8ABFF70089385B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MCP73L8734;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE20DF441E8ABFF70089385B;
+					};
+					BE20DF631E8ABFF70089385B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MCP73L8734;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE20DF441E8ABFF70089385B;
+					};
+				};
+			};
+			buildConfigurationList = BE20DF401E8ABFF70089385B /* Build configuration list for PBXProject "SocialButtonControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE20DF3C1E8ABFF70089385B;
+			productRefGroup = BE20DF461E8ABFF70089385B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE20DF441E8ABFF70089385B /* SocialButtonControl */,
+				BE20DF581E8ABFF70089385B /* SocialButtonControlTests */,
+				BE20DF631E8ABFF70089385B /* SocialButtonControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE20DF431E8ABFF70089385B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE20DF531E8ABFF70089385B /* LaunchScreen.storyboard in Resources */,
+				BE20DF501E8ABFF70089385B /* Assets.xcassets in Resources */,
+				BE20DF4E1E8ABFF70089385B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE20DF571E8ABFF70089385B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE20DF621E8ABFF70089385B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE20DF411E8ABFF70089385B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE20DF4B1E8ABFF70089385B /* ViewController.swift in Sources */,
+				BE20DF491E8ABFF70089385B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE20DF551E8ABFF70089385B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE20DF5E1E8ABFF70089385B /* SocialButtonControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE20DF601E8ABFF70089385B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE20DF691E8ABFF70089385B /* SocialButtonControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE20DF5B1E8ABFF70089385B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE20DF441E8ABFF70089385B /* SocialButtonControl */;
+			targetProxy = BE20DF5A1E8ABFF70089385B /* PBXContainerItemProxy */;
+		};
+		BE20DF661E8ABFF70089385B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE20DF441E8ABFF70089385B /* SocialButtonControl */;
+			targetProxy = BE20DF651E8ABFF70089385B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE20DF4C1E8ABFF70089385B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE20DF4D1E8ABFF70089385B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE20DF511E8ABFF70089385B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE20DF521E8ABFF70089385B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE20DF6B1E8ABFF70089385B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE20DF6C1E8ABFF70089385B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE20DF6E1E8ABFF70089385B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = SocialButtonControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.SocialButtonControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE20DF6F1E8ABFF70089385B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = SocialButtonControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.SocialButtonControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BE20DF711E8ABFF70089385B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = SocialButtonControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.SocialButtonControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialButtonControl.app/SocialButtonControl";
+			};
+			name = Debug;
+		};
+		BE20DF721E8ABFF70089385B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = SocialButtonControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.SocialButtonControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialButtonControl.app/SocialButtonControl";
+			};
+			name = Release;
+		};
+		BE20DF741E8ABFF70089385B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = SocialButtonControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.SocialButtonControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SocialButtonControl;
+			};
+			name = Debug;
+		};
+		BE20DF751E8ABFF70089385B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MCP73L8734;
+				INFOPLIST_FILE = SocialButtonControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mad.SocialButtonControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SocialButtonControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE20DF401E8ABFF70089385B /* Build configuration list for PBXProject "SocialButtonControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE20DF6B1E8ABFF70089385B /* Debug */,
+				BE20DF6C1E8ABFF70089385B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE20DF6D1E8ABFF70089385B /* Build configuration list for PBXNativeTarget "SocialButtonControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE20DF6E1E8ABFF70089385B /* Debug */,
+				BE20DF6F1E8ABFF70089385B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE20DF701E8ABFF70089385B /* Build configuration list for PBXNativeTarget "SocialButtonControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE20DF711E8ABFF70089385B /* Debug */,
+				BE20DF721E8ABFF70089385B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE20DF731E8ABFF70089385B /* Build configuration list for PBXNativeTarget "SocialButtonControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE20DF741E8ABFF70089385B /* Debug */,
+				BE20DF751E8ABFF70089385B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE20DF3D1E8ABFF70089385B /* Project object */;
+}
